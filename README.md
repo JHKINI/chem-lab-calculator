@@ -4,7 +4,7 @@
 화학 실험 및 품질관리(QC) 업무에서 반복사용하는 계산을 자동화한 파이썬 콘솔 기반 계산기입니다.
 Chemical lab calculator for solution preparation, dilution, and QC-related calculations
 ---
-
+![실행 결과](result.png)
 ## 프로젝트 소개
 
 실험 중에는 몰농도, 희석, 수화물 보정, ppm, 순도 보정 등 반복적인 계산이 자주 필요합니다.  
@@ -73,4 +73,5 @@ Chemical lab calculator for solution preparation, dilution, and QC-related calcu
 ## 실행 방법
 
 ```bash
-python chem_calculator.py
+pip install -r requirements.txt
+streamlit run app.py
